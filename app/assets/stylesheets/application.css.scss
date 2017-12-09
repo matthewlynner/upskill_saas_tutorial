@@ -20,11 +20,13 @@
 @import 'font-awesome';
 
 // Topography Styles
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
 //Background gradient
+
 .navbar, .home-callout {
     //Gradient provided by uiGradients.com @_ighosh
     background: #457fca;  /* fallback for old browsers */
@@ -52,7 +54,19 @@ h1, h2, h3 {
         }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #5691c8;
+    }
+}
+
 // Home Page Style
+
 .home-callout {
     color: white;
     margin-top: -20px;
